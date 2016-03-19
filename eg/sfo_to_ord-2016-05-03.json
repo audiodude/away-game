@@ -1,0 +1,2324 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "EVv5TlAIr1TJU4jxb0Nzn6",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ORD",
+     "city": "CHI",
+     "name": "Chicago O'Hare"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SFO",
+     "city": "SFO",
+     "name": "San Francisco International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "CHI",
+     "name": "Chicago"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SFO",
+     "name": "San Francisco"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "738",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "739",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "744",
+     "name": "Boeing 747"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "753",
+     "name": "Boeing 757"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_001",
+     "name": "US Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AS",
+     "name": "Alaska Airlines Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "F9",
+     "name": "Frontier Airlines, Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UA",
+     "name": "United Airlines, Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VX",
+     "name": "Virgin America Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD88.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 244,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 244,
+        "flight": {
+         "carrier": "UA",
+         "number": "1401"
+        },
+        "id": "G3r6458a1npHPkGl",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LRqkkK7LcebAcUF2",
+          "aircraft": "753",
+          "arrivalTime": "2016-05-04T04:54-05:00",
+          "departureTime": "2016-05-03T22:50-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 244,
+          "onTimePerformance": 80,
+          "mileage": 1841,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ArVBi49YwmwJbPUgQ+oHrAy/XWSz9+TU1XuR93qdUDh2",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "GAA07TWS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ArVBi49YwmwJbPUgQ+oHrAy/XWSz9+TU1XuR93qdUDh2",
+        "segmentId": "G3r6458a1npHPkGl"
+       }
+      ],
+      "baseFareTotal": "USD68.84",
+      "saleFareTotal": "USD68.84",
+      "saleTaxTotal": "USD19.26",
+      "saleTotal": "USD88.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD5.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 68.84GAA07TWS USD 68.84 END ZP SFO XT 5.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD94.00",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 260,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 260,
+        "flight": {
+         "carrier": "F9",
+         "number": "1244"
+        },
+        "id": "GYmnh-vULmCqSZNJ",
+        "cabin": "COACH",
+        "bookingCode": "Z",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LTul6WFPT1eTizjK",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-03T15:55-05:00",
+          "departureTime": "2016-05-03T09:35-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 260,
+          "mileage": 1841,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A+mBi2nxIqEK694ledcFqQycdno6b7v+WIat9LCWiKa6",
+        "carrier": "F9",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "Z00OSS5"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A+mBi2nxIqEK694ledcFqQycdno6b7v+WIat9LCWiKa6",
+        "segmentId": "GYmnh-vULmCqSZNJ"
+       }
+      ],
+      "baseFareTotal": "USD74.32",
+      "saleFareTotal": "USD74.32",
+      "saleTaxTotal": "USD19.68",
+      "saleTotal": "USD94.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD5.58"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO F9 ORD Q9.29 Q4.65 60.38Z00OSS5 USD 74.32 END ZP SFO XT 5.58US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-19T14:52-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD108.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 248,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 248,
+        "flight": {
+         "carrier": "UA",
+         "number": "995"
+        },
+        "id": "GAt6Ie6T-HkK6AdM",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-RE9Bzm0SN7UlNs",
+          "aircraft": "739",
+          "arrivalTime": "2016-05-04T06:03-05:00",
+          "departureTime": "2016-05-03T23:55-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 248,
+          "mileage": 1841,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AeNiqdE/qXA5iC870MsgL/6TnrfNM4o+cWYXMK9+W3DQ",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAA07TWN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AeNiqdE/qXA5iC870MsgL/6TnrfNM4o+cWYXMK9+W3DQ",
+        "segmentId": "GAt6Ie6T-HkK6AdM"
+       }
+      ],
+      "baseFareTotal": "USD87.44",
+      "saleFareTotal": "USD87.44",
+      "saleTaxTotal": "USD20.66",
+      "saleTotal": "USD108.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD6.56"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 87.44KAA07TWN USD 87.44 END ZP SFO XT 6.56US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD148.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 265,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 265,
+        "flight": {
+         "carrier": "VX",
+         "number": "204"
+        },
+        "id": "G4TyM9-FwIs8btXr",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFBepOuOl3suVVtH",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-03T18:00-05:00",
+          "departureTime": "2016-05-03T11:35-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 265,
+          "mileage": 1841,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "segmentId": "G4TyM9-FwIs8btXr"
+       }
+      ],
+      "baseFareTotal": "USD124.65",
+      "saleFareTotal": "USD124.65",
+      "saleTaxTotal": "USD23.45",
+      "saleTotal": "USD148.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD9.35"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX CHI 124.65S21NR USD 124.65 END ZP SFO XT 9.35US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD148.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 255,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 255,
+        "flight": {
+         "carrier": "VX",
+         "number": "210"
+        },
+        "id": "GYO7YME2-xem-o7U",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ls-0GbTUXSldSJ7P",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-03T22:15-05:00",
+          "departureTime": "2016-05-03T16:00-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 255,
+          "mileage": 1841,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "segmentId": "GYO7YME2-xem-o7U"
+       }
+      ],
+      "baseFareTotal": "USD124.65",
+      "saleFareTotal": "USD124.65",
+      "saleTaxTotal": "USD23.45",
+      "saleTotal": "USD148.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD9.35"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX CHI 124.65S21NR USD 124.65 END ZP SFO XT 9.35US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD148.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 255,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 255,
+        "flight": {
+         "carrier": "VX",
+         "number": "202"
+        },
+        "id": "Gvet5-34neuszDF+",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LD9sYxylJXJI4eR5",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-03T13:15-05:00",
+          "departureTime": "2016-05-03T07:00-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 255,
+          "mileage": 1841,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjHtOJ2enzfKL+jY3No4VG1pudm8xF3RCeFqBbZloPEs",
+        "segmentId": "Gvet5-34neuszDF+"
+       }
+      ],
+      "baseFareTotal": "USD124.65",
+      "saleFareTotal": "USD124.65",
+      "saleTaxTotal": "USD23.45",
+      "saleTotal": "USD148.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD9.35"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX CHI 124.65S21NR USD 124.65 END ZP SFO XT 9.35US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800C",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 255,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 255,
+        "flight": {
+         "carrier": "UA",
+         "number": "1570"
+        },
+        "id": "GrL5YtMfM3Op1rye",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKXOZS6zPSHYOWvW",
+          "aircraft": "753",
+          "arrivalTime": "2016-05-03T14:30-05:00",
+          "departureTime": "2016-05-03T08:15-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 255,
+          "onTimePerformance": 80,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GrL5YtMfM3Op1rye"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 252,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 252,
+        "flight": {
+         "carrier": "UA",
+         "number": "705"
+        },
+        "id": "Gupee+e6vV5IhjDH",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-CwWxCyPsIQtKnY",
+          "aircraft": "739",
+          "arrivalTime": "2016-05-03T23:32-05:00",
+          "departureTime": "2016-05-03T17:20-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 252,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "Gupee+e6vV5IhjDH"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800D",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 261,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 261,
+        "flight": {
+         "carrier": "UA",
+         "number": "734"
+        },
+        "id": "Gb5nVN-MT9rTpAnv",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LcUVyZE0wquHN878",
+          "aircraft": "739",
+          "arrivalTime": "2016-05-03T12:21-05:00",
+          "departureTime": "2016-05-03T06:00-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 261,
+          "onTimePerformance": 70,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "Gb5nVN-MT9rTpAnv"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800E",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 261,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 261,
+        "flight": {
+         "carrier": "UA",
+         "number": "820"
+        },
+        "id": "GCLVsvv1PFg7xx4A",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LMgTKUk62RCo9DV2",
+          "aircraft": "739",
+          "arrivalTime": "2016-05-03T19:41-05:00",
+          "departureTime": "2016-05-03T13:20-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 261,
+          "onTimePerformance": 60,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GCLVsvv1PFg7xx4A"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 243,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 243,
+        "flight": {
+         "carrier": "UA",
+         "number": "620"
+        },
+        "id": "GVgz-fFDHXe7IGqe",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5KwNvEJJ-Gqn1zJ",
+          "aircraft": "744",
+          "arrivalTime": "2016-05-03T14:43-05:00",
+          "departureTime": "2016-05-03T08:40-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 243,
+          "onTimePerformance": 80,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GVgz-fFDHXe7IGqe"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 252,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 252,
+        "flight": {
+         "carrier": "UA",
+         "number": "1606"
+        },
+        "id": "GZZKozV8UBl99qex",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LkgfJcgUxU99iorS",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-04T00:17-05:00",
+          "departureTime": "2016-05-03T18:05-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 252,
+          "onTimePerformance": 60,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GZZKozV8UBl99qex"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800B",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 254,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 254,
+        "flight": {
+         "carrier": "UA",
+         "number": "624"
+        },
+        "id": "GdTJ34obGgPjw4KL",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LyoVS+mJgem+TvWu",
+          "aircraft": "753",
+          "arrivalTime": "2016-05-03T17:23-05:00",
+          "departureTime": "2016-05-03T11:09-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 254,
+          "onTimePerformance": 70,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GdTJ34obGgPjw4KL"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD168.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j78008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 247,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 247,
+        "flight": {
+         "carrier": "UA",
+         "number": "390"
+        },
+        "id": "GZIM2oPzzsF3wN-g",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LY4MmJXqVdtxv0rL",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T22:12-05:00",
+          "departureTime": "2016-05-03T16:05-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 247,
+          "onTimePerformance": 60,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "KAK21AGS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdttVnaMCKR3OTz1jpH8rBsiYp8JK3zBup7p+/EwIWAA",
+        "segmentId": "GZIM2oPzzsF3wN-g"
+       }
+      ],
+      "baseFareTotal": "USD143.26",
+      "saleFareTotal": "USD143.26",
+      "saleTaxTotal": "USD24.84",
+      "saleTotal": "USD168.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD10.74"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA CHI 143.26KAK21AGS USD 143.26 END ZP SFO XT 10.74US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800K",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 254,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 254,
+        "flight": {
+         "carrier": "AS",
+         "number": "1541"
+        },
+        "id": "GCGRAbhTqdz9N4Xq",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LtcDc3LmCpsad1MJ",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T11:14-05:00",
+          "departureTime": "2016-05-03T05:00-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 254,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "GCGRAbhTqdz9N4Xq"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800I",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 261,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 261,
+        "flight": {
+         "carrier": "AS",
+         "number": "1502"
+        },
+        "id": "GPGzV3qkV76FEfe4",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrmhCfscAZjmuk4N",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T20:51-05:00",
+          "departureTime": "2016-05-03T14:30-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 261,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "onTimePerformance": 58,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "GPGzV3qkV76FEfe4"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800H",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 259,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 259,
+        "flight": {
+         "carrier": "AS",
+         "number": "1212"
+        },
+        "id": "GnbbqbYvEH7FHCbT",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+xKM-4jb7CvOXud",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T14:04-05:00",
+          "departureTime": "2016-05-03T07:45-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 259,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "onTimePerformance": 100,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "GnbbqbYvEH7FHCbT"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800F",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 256,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 256,
+        "flight": {
+         "carrier": "AS",
+         "number": "1080"
+        },
+        "id": "GQpuKwG00quBdjPS",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqNZWHx19+W05I1v",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T16:57-05:00",
+          "departureTime": "2016-05-03T10:41-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 256,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "onTimePerformance": 63,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "GQpuKwG00quBdjPS"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800G",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 258,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 258,
+        "flight": {
+         "carrier": "AS",
+         "number": "1137"
+        },
+        "id": "Go8ZwVM++OvFGL5y",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LgrJueSrPFrFzNUa",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-03T22:03-05:00",
+          "departureTime": "2016-05-03T15:45-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 258,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "Go8ZwVM++OvFGL5y"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD217.10",
+    "id": "ZV2Viq8BW3TVEMAHyJ7j7800J",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 252,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 252,
+        "flight": {
+         "carrier": "AS",
+         "number": "1257"
+        },
+        "id": "Gy-tjuEdlkb1QXtc",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LjoQl7yPpbx2Qivn",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-04T06:11-05:00",
+          "departureTime": "2016-05-03T23:59-07:00",
+          "origin": "SFO",
+          "destination": "ORD",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 252,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES",
+          "onTimePerformance": 94,
+          "mileage": 1841,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "carrier": "AS",
+        "origin": "SFO",
+        "destination": "CHI",
+        "basisCode": "QA21ZNI1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "APO+v98Lvm5xyomSz+2QhKA+3CerJFr1YDCxMp0KoHN2",
+        "segmentId": "Gy-tjuEdlkb1QXtc"
+       }
+      ],
+      "baseFareTotal": "USD188.84",
+      "saleFareTotal": "USD188.84",
+      "saleTaxTotal": "USD28.26",
+      "saleTotal": "USD217.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD14.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO AS CHI 188.84QA21ZNI1 USD 188.84 END ZP SFO XT 14.16US 4.00ZP 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-03-20T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
