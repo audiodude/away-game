@@ -1,35 +1,123 @@
 <html lang="en" >
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Angular Material style sheet -->
-  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+
+  <link rel="stylesheet" href="/static/bower_components/angular-material/angular-material.css">
+  <link rel="stylesheet" href="static/bower_components/fullcalendar/dist/fullcalendar.css"/>
   <link rel="stylesheet" href="/static/css/style.css">
 
-  <!-- Angular Material requires Angular.js Libraries -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+  <script type="text/javascript" src="static/bower_components/angular/angular.min.js"></script>
+  <script src="/static/bower_components/angular-aria/angular-aria.js"></script>
+  <script src="/static/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="/static/bower_components/angular-material/angular-material.js"></script>
 
-  <!-- Angular Material Library -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-  
   <!-- Application bootstrap  -->
   <script src="/static/js/main.js"></script>  
 </head>
 
-<body ng-app="AwayGameApp" layout="column" ng-cloak>
-  <div class="instructions" layout="row" flex>
-    <h1 class="numeral" flex>1.</h1>
-    <div flex layout="column">
-      <h1 class="instr-hdr">Choose your team</h1>
-      <p class="expl">
-        Which team's games would you like to go on the road and see?
-      </p>
+<body ng-app="AwayGameApp" layout="column" ng-cloak
+      ng-controller="MainController">
+  <div ng-hide="flights.length"
+       layout="column" flex>
+    <section class="main-section" ng-class="{expanded: isExpanded(0)}"
+             layout="column" flex>
+      <div class="instructions" layout="row" flex>
+        <h1 class="numeral" flex>1.</h1>
+        <div flex layout="column">
+          <h1 class="instr-hdr">Choose your team</h1>
+          <p ng-show="isExpanded(0)" class="expl">
+            Which team's games would you like to go on the road and see?
+          </p>
+        </div>
+      </div>
+      <div ng-show="isExpanded(0)" 
+           class="logos" layout="row" layout-wrap flex-sm="50">
+        <div ng-repeat="team in teams">
+          <button class="team-logo"
+                  ng-click="selectTeam(team.team)"
+                  ng-class="{selected: isSelected(team.team)}">
+            <img ng-src="/static/logos/{{team.logo}}">
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="main-section" ng-class="{expanded: isExpanded(1)}"
+             layout="column" flex>
+      <div class="instructions" layout="row" flex>
+        <h1 class="numeral" flex>2.</h1>
+        <div flex layout="column">
+          <h1 class="instr-hdr">Select an airport</h1>
+          <p ng-show="isExpanded(1)" class="expl">
+            Which airport will you be flying out of?
+          </p>
+        </div>
+      </div>
+      <div ng-show="isExpanded(1)"
+           class="airports" layout="row" layout-align="center center"
+           flex-sm="50">
+        <div class="airport-cont" flex="25">
+          <md-input-container>
+            <label>Airport</label>
+            <md-select ng-model="airport">
+              <md-option ng-repeat="(code, name) in airports"
+                         value="{{code}}">
+                {{name}}
+              </md-option>
+            </md-select>
+          </md-input-container>
+          <md-button class="md-primary" ng-click="submitAirport()">
+            Select airport
+          </md-button>
+        </div>
+    </section>
+    <section class="main-section" ng-class="{expanded: isExpanded(2)}"
+             layout="column" flex>
+      <div class="instructions" layout="row" flex>
+        <h1 class="numeral" flex>3.</h1>
+        <div flex layout="column">
+          <h1 class="instr-hdr">What is the game date?</h1>
+          <p ng-show="isExpanded(2)" class="expl">
+            Tell us what date you'd like to see a game on.
+          </p>
+        </div>
+      </div>
+      <div ng-show="isExpanded(2)" 
+           class="game-date" layout="column" layout-align="center center" 
+           flex-sm="50">
+        <div layout="row">
+          <md-datepicker ng-model="gameDate" md-placeholder="Date of game"
+                         ng-change="onDateChange()">
+          </md-datepicker>
+        </div>
+        <div class="game-info">
+          {{gameDetails}}
+        </div>
+        <div>
+          <md-button ng-disabled="!gameDate"
+                     class="md-primary md-raised" ng-click="findFlights()">
+            Find flights
+          </md-button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <md-content ng-show="flights.length" layout="column" flex style="padding: 100px 400px">
+    <h1>Pick your flight and tickets</h1>
+    <div style="text-align:center; margin: 10px auto;">
+      <md-button ng-href="https://seatgeek.com/red-sox-at-white-sox-tickets/5-3-2016-chicago-illinois-us-cellular-field/mlb/2930900" class="md-primary md-raised">Buy game tickets at SeatGeek</md-button>
     </div>
-  </div>
-  <div class="logos" layout="row" layout-wrap>
-
-  </div>
+    <div flex layout="row" style="min-height:120px"
+         ng-repeat="flight in flights">
+      <div flex style="min-height:100px">
+        <div>{{flight.price}}</div>
+        <div>From {{flight.origin}} to {{flight.destination}}</div>
+        <div>Departs: {{flight.departureTime}}</div>
+        <div>Arrives: {{flight.arrivalTime}}</div>
+      </div>
+      <div flex="20">
+        <md-button ng-href=" https://www.united.com/ual/en/us/flight-search/book-a-flight/results/rev?f=sfo&t=ord&d=2016-05-03&r=2016-05-04&sc=7,7&px=1&taxng=1&idx=1" class="md-primary">Book on United.com</md-button>
+      </div>
+    </div>
+  </md-content>
 </body>
 </html>
